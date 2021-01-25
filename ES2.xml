@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+<!-- Scrivere e fare il check di un XML non opportunamene annidato -->
+<text>
+    <body>
+    Ciao
+</text>
+</body>
+
+<!-- OUTPUT ERRORE 
+ES2.xml:11: parser error : Opening and ending tag mismatch: body line 9 and text
+</text>
+       ^
+ES2.xml:12: parser error : Opening and ending tag mismatch: text line 8 and body
+</body>
+       ^
+
+-->
+
+<!-- CODICE CORRETTO
+<body>
+    <text>
+        Ciao
+    </text>
+</body>
+-->

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Codificare lettera Bellini utilizzando il tagset facsimile e il collegamento completo testo-immagine -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Ottavio Tasca, in Como, 24 agosto 1830 </title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition>Edizione digitale
+					<date when="2020-10">Ottobre 2020</date>
+				</edition>
+                <respStmt>
+                    <resp>Progetto edizione digitale coordinato da</resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                    <name xml:id="DS">Daria Spampinato</name>
+                </respStmt>
+				<respStmt>
+					<resp>Codifica di</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="EC">Erica Capizzi</name>
+					<name ref="#DS">Daria Spampinato</name>
+                    <name xml:id="FP">Francesca Parra</name>
+                    <name xml:id="GBE">Greta Bernardoni</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+                <date when="2020">2020</date>
+			</publicationStmt>
+
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="136">
+					<citedRange unit="page" from="226" to="226">226</citedRange>
+				</bibl>
+
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<idno type="inventory">LL1.6</idno>					
+						<altIdentifier>
+                            <idno type="collocation">in esposizione Casa Natale, sala B, vetrina 3, ripiano 1, IV</idno>
+						</altIdentifier>						
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#OT">Ottavio Tasca</persName>, in <placeName ref="#CO">Como</placeName>, <date when="1830-08-24" cert="high" resp="#GS">24 agosto 1830</date>    			
+							</title><!DOCTYPE TEI SYSTEM "tei_all.dtd">
+							<textLang mainLang="it" otherLangs="fr">italiano di inizio Ottocento con indirizzo in francese</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<stamp> Sono presenti al centro nel folio fronte-verso un timbro postale di partenza e parte del sigillo di ceralacca rossa.</stamp>
+									<p>Lettera in discrete condizioni fisiche, composta da un solo folio, piegato in più parti e con testo della lettera nel fronte-recto e nel retro-verso e indirizzo nella parte del fronte-verso. Carta sottile senza filigrana, colore beige, inchiostro nero. La lettera sul fronte-verso presenta due strappi: uno in basso e l'altro al centro a sinistra. Anche sul retro-verso sono presenti due strappi: uno piccolo infondo a destra e uno molto lieve al centro a sinistra (probabilmente si è cercato di ricompattarlo). Il margine inferiore del retro-verso è frastagliato. Sul retro-recto sono presenti due macchie provocate dal sigillo in ceralacca (ha causato anche un lieve strappo) e dal timbro postale presenti sul fronte-verso. </p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>
+									<dimensions unit="mm">
+										<height>197</height>
+										<width>135</width>
+									</dimensions>
+								</extent>
+								<foliation>
+											Il fronte è piegato in recto (a dx) e verso (a sx), con l'indirizzo nel verso. Ciascuno presenta due piegature simmetriche sui margini inferiore e superiore e due asimmetriche sui margini destro e sinistro, quest'ultimo piegato più stretto. Quindi il folio è diviso in nove sezioni disomogenee e funge anche da busta.
+								</foliation>
+								<condition>
+									<p>Lettera in discrete condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="4">
+							<handNote>
+								<p>Scrittura di Bellini a mano libera leggibile.</p>
+							</handNote>
+							<handNote xml:id="h1">
+								<p>Fronte-verso: segno simile al numero romano V di significato e origini incerte, ricorrente nell'epistolario di Bellini.</p>
+							</handNote>
+							<handNote xml:id="h2">
+								<p>Fronte-recto, in alto a sinistra: annotazione a matita che rappresenta il numero 38, probabilmente dovuta ad un catalogatore.</p> 
+							</handNote>
+							<handNote xml:id="h3">
+								<p>Fronte-verso, al centro: annotazione a matita che presenta "Bellini", probabilmente dovuta ad un catalogatore</p>
+							</handNote>
+						</handDesc>
+						<sealDesc>							
+							<seal facs="#LL1.6_hotspot_1fv_04" type="wax">
+								<p>Il fronte-verso, nella parte centrale destra, presenta un frammento di sigillo di ceralacca rossa.</p>
+							</seal>
+						</sealDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>		
+									All'interno del carteggio belliniano (LL), la segnatura LL1.6 identifica la sesta missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+            </sourceDesc>
+        </fileDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface n="1" xml:id="LL1.6_folio_1fr">	<!-- FRONTE RECTO  -->
+			<graphic url='LL1.6_0001.jpg' width='1672px' height='2417px'/>
+			<!-- Data e luogo di scrittura della lettera -->
+			<zone ulx="834" uly="77" lrx="1559" lry="270" rendition="Line" xml:id="LL1.6_line_1fr_01"/>
+			<!-- Corpo della lettera -->
+			<zone ulx="205" uly="497" lrx="1625" lry="2339" rendition="Line" xml:id="LL1.6_line_1fr_02"/>
+			<!-- Presunto numero di catalogazione -->
+			<zone ulx="47" uly="90" lrx="259" lry="330" rendition="HotSpot" xml:id="LL1.6_hotspot_1fr_01"/>
+			<!-- Cancellazione e correzione da parte di Bellini -->
+			<zone ulx="875" uly="2200" lrx="1299" lry="2310" rendition="Line" xml:id="LL1.6_line_1fr_03"/>
+			<!-- Righe del corpo della lettera -->
+			<zone ulx="215" uly="305" lrx="739" lry="411" rendition="Line" xml:id="LL1.6_line_1fr_04"/>
+			<zone ulx="549" uly="490" lrx="1615" lry="576" rendition="Line" xml:id="LL1.6_line_1fr_05"/>
+			<zone ulx="172" uly="591" lrx="1607" lry="682" rendition="Line" xml:id="LL1.6_line_1fr_06"/>
+			<zone ulx="188" uly="726" lrx="1608" lry="780" rendition="Line" xml:id="LL1.6_line_1fr_07"/>
+			<zone ulx="195" uly="822" lrx="1606" lry="874" rendition="Line" xml:id="LL1.6_line_1fr_08"/>
+			<zone ulx="205" uly="915" lrx="1599" lry="979" rendition="Line" xml:id="LL1.6_line_1fr_09"/>
+			<zone ulx="214" uly="1016" lrx="1604" lry="1076" rendition="Line" xml:id="LL1.6_line_1fr_10"/>
+			<zone ulx="215" uly="1099" lrx="1612" lry="1181" rendition="Line" xml:id="LL1.6_line_1fr_11"/>
+			<zone ulx="215" uly="1201" lrx="1540" lry="1247" rendition="Line" xml:id="LL1.6_line_1fr_12"/>
+			<zone ulx="219" uly="1292" lrx="1611" lry="1360" rendition="Line" xml:id="LL1.6_line_1fr_13"/>
+			<zone ulx="222" uly="1390" lrx="1594" lry="1441" rendition="Line" xml:id="LL1.6_line_1fr_14"/>
+			<zone ulx="225" uly="1476" lrx="1612" lry="1551" rendition="Line" xml:id="LL1.6_line_1fr_15"/>
+			<zone ulx="224" uly="1567" lrx="1611" lry="1642" rendition="Line" xml:id="LL1.6_line_1fr_16"/>
+			<zone ulx="213" uly="1664" lrx="1604" lry="1716" rendition="Line" xml:id="LL1.6_line_1fr_17"/>
+			<zone ulx="215" uly="1748" lrx="1600" lry="1825" rendition="Line" xml:id="LL1.6_line_1fr_18"/>
+			<zone ulx="224" uly="1856" lrx="1615" lry="1920" rendition="Line" xml:id="LL1.6_line_1fr_19"/>
+			<zone ulx="227" uly="1944" lrx="1612" lry="2012" rendition="Line" xml:id="LL1.6_line_1fr_20"/>
+			<zone ulx="231" uly="2044" lrx="1616" lry="2100" rendition="Line" xml:id="LL1.6_line_1fr_21"/>
+			<zone ulx="229" uly="2135" lrx="1611" lry="2196" rendition="Line" xml:id="LL1.6_line_1fr_22"/>
+			<zone ulx="205" uly="2204" lrx="1604" lry="2323" rendition="Line" xml:id="LL1.6_line_1fr_23"/>
+			<!-- Strappo speculare al retro-verso -->
+			<zone ulx="34" uly="2027" lrx="91" lry="2371" rendition="HotSpot" xml:id="LL1.6_hotspot_1fr_02"/>
+		</surface>
+
+		<surface n="2" xml:id="LL1.6_folio_1rv">	<!-- RETRO VERSO  -->
+			<graphic url='LL1.6_0002.jpg' width='1663.86666px' height='2408.86666px' />
+			<!-- Corpo della lettera -->
+			<zone ulx="109" uly="478" lrx="1655" lry="1515" rendition="Line" xml:id="LL1.6_line_1rv_01" />
+			<!-- Righe del corpo della lettera -->
+			<zone ulx="134" uly="493" lrx="1609" lry="589" rendition="Line" xml:id="LL1.6_line_1rv_02" />
+			<zone ulx="136" uly="599" lrx="1598" lry="657" rendition="Line" xml:id="LL1.6_line_1rv_03"/>
+			<zone ulx="138" uly="682" lrx="1605" lry="774" rendition="Line" xml:id="LL1.6_line_1rv_04"/>
+			<zone ulx="139" uly="803" lrx="1593" lry="857" rendition="Line" xml:id="LL1.6_line_1rv_05"/>
+			<zone ulx="143" uly="893" lrx="1581" lry="962" rendition="Line" xml:id="LL1.6_line_1rv_06"/>
+			<zone ulx="146" uly="990" lrx="1614" lry="1080" rendition="Line" xml:id="LL1.6_line_1rv_07"/>
+			<zone ulx="147" uly="1091" lrx="1576" lry="1150" rendition="Line" xml:id="LL1.6_line_1rv_08"/>
+			<zone ulx="146" uly="1179" lrx="1611" lry="1268" rendition="Line" xml:id="LL1.6_line_1rv_09"/>
+			<zone ulx="174" uly="1255" lrx="1634" lry="1344" rendition="Line" xml:id="LL1.6_line_1rv_10"/>
+			<zone ulx="168" uly="1373" lrx="1595" lry="1437" rendition="Line" xml:id="LL1.6_line_1rv_11"/>
+			<zone ulx="165" uly="1464" lrx="653" lry="1532" rendition="Line" xml:id="LL1.6_line_1rv_12"/>
+			<!-- Intera firma -->
+			<zone ulx="632" uly="1522" lrx="1416" lry="1734" rendition="Line" xml:id="LL1.6_line_1rv_13" />
+			<!-- Il tuo amico -->
+			<zone ulx="632" uly="1523" lrx="1411" lry="1622" rendition="Line" xml:id="LL1.6_line_1rv_14"/>
+			<!-- Firma Vincenzo Bellini -->
+			<zone ulx="633" uly="1624" lrx="1413" lry="1731" rendition="Line" xml:id="LL1.6_line_1rv_15"/>
+			<!-- Strappo speculare al fronte-recto -->
+			<zone ulx="1547" uly="2020" lrx="1660" lry="2359" rendition="HotSpot" xml:id="LL1.6_hotspot_1rv_01"/>
+		</surface>
+
+		<surface n="3" xml:id="LL1.6_folio_1rr">	<!-- RETRO RECTO  -->
+			<graphic url='LL1.6_0003.jpg' width='1672.86666px' height='2416.86666px' />
+			<!-- Macchia provocata dal sigillo in ceralacca e lieve strappo -->
+			<zone ulx="121" uly="1021" lrx="448" lry="1327" rendition="HotSpot" xml:id="LL1.6_hotspot_1rr_01"/>
+			<!-- Macchia provocata dal timbro e strappo -->
+			<zone ulx="1096" uly="977" lrx="1657" lry="1386" rendition="HotSpot" xml:id="LL1.6_hotspot_1rr_02" />
+			<!-- Strappo in basso -->
+			<zone ulx="6" uly="1682" lrx="1655" lry="2373" rendition="HotSpot" xml:id="LL1.6_hotspot_1rr_03"/>
+		</surface>
+
+		<surface n="4" xml:id="LL1.6_folio_1fv">	<!-- FRONTE VERSO  -->
+			<graphic url='LL1.6_0004.jpg' width='1663.86666px' height='2408.86666px' />
+			<!-- Sigillo in ceralacca -->
+			<zone ulx="1182" uly="1013" lrx="1564" lry="1358" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_01" />
+			<!-- Simbolo "V" -->
+			<zone ulx="544" uly="840" lrx="934" lry="1241" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_02" />
+			<!-- Indirizzo destinatario -->
+			<zone ulx="619" uly="530" lrx="762" lry="1879" rendition="Line" xml:id="LL1.6_line_1fv_01"/>
+			<zone ulx="846" uly="462" lrx="984" lry="1144" rendition="Line" xml:id="LL1.6_line_1fv_02" />
+			<!-- Probabile annotazione catalogatore -->
+			<zone ulx="328" uly="604" lrx="589" lry="1090" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_03"/>
+			<!-- Timbri postali -->
+			<zone ulx="328" uly="1110" lrx="562" lry="1508" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_04" />
+			<zone ulx="124" uly="1420" lrx="350" lry="1837" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_05"/>
+			<!-- Strappi speculari al retro-recto -->
+			<zone ulx="50" uly="986" lrx="362" lry="1386" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_06"/>
+			<zone ulx="45" uly="1725" lrx="1643" lry="2374" rendition="HotSpot" xml:id="LL1.6_hotspot_1fv_07"/>
+		</surface>
+	</facsimile>
+</TEI>

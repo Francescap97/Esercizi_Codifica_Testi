@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Codificare usando gli opportuni elementi TEI una cartolina -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Donna appoggiata su cuscino] - Edizione digitale</title>
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="DC">Francesca Parra</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                    <date>2018</date>
+                </edition>
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="XY1">Francesca Parra</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name xml:id="XY2">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <notesStmt>
+                <note> Nel retro si trova la scritta "This space may be used for correspondence"</note>
+                <note> Nel retro si trova un simbolo composto da un cerchio rosso e le lettere R e N sovrapposte </note>
+                <note> Nel retro si trova la scritta "Universal Copyright" </note>
+            </notesStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#ES">[Donna appoggiata su cuscino]</title>
+                    <author></author>
+                    <date>1913</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694-001/002</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                            <addName>Giovannino</addName>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">tenente colonnello</occupation>
+                        <note></note>
+                    </person>
+                    <person xml:id="AT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note></note>
+                    </place>
+                </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#GE"/>
+                    <date type="postage" when="1913-05-31">1918/12/29</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#AT"/>
+                    <placeName ref="#RA"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text type="cartolina">
+        <body>
+            <div type="fronte">
+                <figure>
+                    <graphic url="images/7694-002F.jpg"/>
+                    <figDesc>Donna vestita di rosso con capelli biondi raccolti, appoggiata su un cuscino giallo con decorazioni bianche e mano appoggiata al viso</figDesc>
+                    <head>[Donna appoggiata su cuscino]</head>
+                </figure>
+            </div>
+            <div type="retro">
+                <div type="message">
+                    <p>Per auguri vivissimi a tutta la famiglia</p>
+                    <signed>???</signed>
+                </div>
+                <div type="destination">
+                    <p>
+                        <stamp type="postmark"> 
+                            <date when="1918/12/24"> 1918/12/24 </date>
+                        </stamp>
+                        <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine> Signorina</addrLine>
+                            <addrLine><persName ref="#AT">Oliva Turtura</persName></addrLine>
+                            <addrLine>Via G. Rossi 60</addrLine>
+                            <addrLine><placeName ref="#RA">Ravenna</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

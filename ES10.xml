@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Codificare un articolo di rivista -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> La "silenziosa" estinsione delle giraffe </title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital Edition <date when="2020-10"> October 2020 </date></edition>
+                <respStmt>
+                    <resp> TEI P5 conversion by </resp>
+                    <name> Francesca Parra </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher> Università di Pisa </publisher>
+                <date when="2020-10"> October 2020 </date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title> La "silenziosa" estinsione delle giraffe </title>
+                        <publisher> www.rivistanatura.com </publisher>
+                    </analytic>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <idno> ES10 </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main"> La "silenziosa" estinsione delle giraffe </titlePart>
+                </docTitle>
+            </titlePage>
+        </front>
+        <body xml:lang="it">
+            <pb n="1"/>
+            <div n="1">
+                <p>
+                    Si mobilita anche <placeName> Hollywood </placeName> a favore della campagna <hi rend="bold"> #StandTallForGiraffes </hi> (stai in piedi a testa alta per le giraffe) per fermare il commercio illegale di animali selvatici, in particolare di giraffe. 
+                </p>
+                <p>
+                    Le celebrità del cinema e delle serie Tv collaborano con l’ente per la conservazione <orgName> <hi rend="bold"> Space for Giants </hi> </orgName> per proteggere la fauna selvatica a rischio dai bracconieri.
+                </p>    
+                <p>
+                    A causa della crisi dei finanziamenti per i progetti di conservazione, causata dai problemi economici dovuti alle misure anti <term> Covid </term>, 
+                    <hi rend="bold"> c’è un disperato bisogno di aiuto </hi> per sostenere i ranger della fauna selvatica, le comunità locali e il personale delle forze dell’ordine 
+                    per prevenire i crimini contro la fauna selvatica.
+                </p>   
+                <p>
+                    A sostegno alla campagna #StandTallForGiraffes, che cerca di vietare l’importazione di giraffe in America, si è aggiunto anche l’attore della <hi rend="bold"> serie Tv <hi rend="italic"> Breaking Bad </hi> </hi>, <persName> Aaron Paul </persName>.
+                </p>
+                <p>
+                    In una dichiarazione congiunta con la moglie attrice, <persName> Lauren Parsekian </persName>, <persName> Paul </persName> ha appoggiato la missione di #StandTallForGiraffes, dicendo: 
+                    <q> «Noi, come esseri umani, abbiamo la responsabilità di proteggere queste creature vulnerabili e magnifiche, che hanno portato tanta estrosa gioia in tutte le nostre vite. Nella vita dei nostri figli». </q>
+                </p>
+                <p>
+                    <persName> <hi rend="bold"> Louise Linton </hi> </persName>, attivista per il benessere degli animali e moglie del <term> Segretario del Tesoro degli Stati Uniti </term>, <persName> Steve Mnuchin </persName>, ha dato pubblicamente il suo sostegno alla campagna rivolgendo un appello diretto al <term> Segretario degli Interni </term>, <persName> <hi rend="bold"> David Bernhardt </hi> </persName>, su <term> Instagram </term>: 
+                    <q> « Segretario <persName> Bernhardt </persName>, gli <placeName> Stati Uniti </placeName> sono uno dei più grandi mercati per le pelli di giraffe e questo deve cambiare. Ci tengo alla salvaguardia del nostro regno animale e so che anche voi ci tenete». </q>
+                </p>
+                <p>
+                    Le giraffe sono in grave pericolo di estinzione a causa della richiesta di parti del corpo e della pelle. 
+                    <hi rend="bold"> L’ <placeName> America </placeName> si è rivelata essere uno dei maggiori importatori di pelle di giraffa; la si usa per fare di tutto, dalle copertine della Bibbia alle scarpe. </hi>
+                </p>
+                <p>
+                    L’ <term> Unione internazionale per la Conservazione della Natura </term> <hi rend="underline"> (<orgName> IUCN </orgName>) </hi> ha recentemente aggiornato la sua lista rossa delle specie minacciate, inserendo nella categoria di <q> “pericolo critico” </q> le sottospecie <term> <hi rend="bold"> giraffa nubiana </hi> </term> (<foreign xml:lang="lat"> <hi rend="italic"> Giraffa camelopardalis camelopardalis </hi> </foreign>) e quella del <placeName> <hi rend="bold"> Kordofan </hi> </placeName> (<foreign xml:lang="lat"> <hi rend="italic"> Giraffa camelopardalis antiquorum </hi> </foreign>), mentre la <hi rend="bold"> Rothschild </hi> (<foreign xml:lang="lat"> <hi rend="italic"> Giraffa camelopardalis rothschildi </hi> </foreign>) è considerata <q> “quasi minacciata” </q>
+                </p>
+                <p>
+                    Le stime sullo stato delle giraffe dicono che negli ultimi <num> 30 </num> anni le popolazioni di giraffa in Africa siano diminuite fino al <num> 40 </num> %. Attualmente sono solo circa <num> 68mila </num> le giraffe rimaste libere in Natura.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

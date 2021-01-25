@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Inserire all'interno di un tag un frammento di codice HTML-->
+<body>
+    <htmlCode>
+        <! [CDATA[
+            <h1> Intestazione </h1>
+            <p> Primo paragrafo </p>
+        ]]>
+    </htmlCode>
+</body>

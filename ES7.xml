@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Inserire nel prologo di un documento XML la dichiarazione del tipo di documento e validare -->
+<!DOCTYPE text SYSTEM "es7.dtd">
+<text>
+    <p> Primo paragrafo </p>
+    <p> Secondo paragrafo </p>
+</text>

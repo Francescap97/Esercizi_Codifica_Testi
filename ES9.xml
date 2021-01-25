@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Marcare un testo plaintext di circa 3000 caratteri a piacere-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Harry Potter e il calice di fuoco </title>
+                <author> Joanne Kathleen Rowling </author>
+            </titleStmt>
+            <editionStmt>
+                <edition> Digital Edition <date when="2020-10"> October 2020 </date></edition>
+                <respStmt>
+                    <resp> TEI P5 conversion by </resp>
+                    <name> Francesca Parra </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher> Università di Pisa </publisher>
+                <date when="2020-10"> October 2020 </date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title> Harry Potter e il calice di fuoco </title>
+                    <author> Joanne Kathleen Rowling </author>
+                    <publisher> Bloomsbury Publishing Plc </publisher>
+                    <pubPlace> London </pubPlace>
+                    <date when="1997"> 1997 </date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <idno> ES9 </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart> <persName> Harry Potter </persName> e il calide di fuoco </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor> Joanne Kathleen Rowling </docAuthor>
+                </byline>
+                <docImprint>
+                    <publisher> Bloomsbury Publishing Plc </publisher>
+                    <pubPlace> London </pubPlace>
+                    <date when="1997"> 1997 </date>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body xml:lang="it">
+            <pb n="1"/>
+            <div n="1">
+                <p> <title> Harry Potter e il calice di fuoco </title> è il quarto romanzo della saga fantasy Harry Potter, scritta da <persName> J. K. Rowling </persName> e ambientata principalmente nell'immaginario Mondo magico durante gli anni novanta del <date> XX secolo </date>. </p>
+                <p> Durante l'estate dopo il terzo anno scolastico, <persName> Harry Potter </persName> sogna che <persName> Lord Voldemort </persName> e il suo servo <persName> Codaliscia </persName>, hanno trovato rifugio presso la villa abbandonata dei <persName> Riddle </persName>. </p>
+                <p> Qualche giorno dopo, i <persName> Weasley </persName> invitano <persName> Harry </persName> ad assistere alla finale della Coppa del Mondo di Quidditch, disputata tra <placeName> Irlanda </placeName> e <placeName> Bulgaria </placeName>. La vittoria va all' <placeName> Irlanda </placeName> nonostante il cercatore della <placeName> Bulgaria </placeName> , <persName> Viktor Krum </persName>, uno dei migliori cercatori in circolazione, riesca a prendere il Boccino d'oro. Al termine dei festeggiamenti, l'accampamento dei maghi al di fuori dello stadio di Quidditch viene attaccato da un gruppo di Mangiamorte, che fanno apparire in cielo il Marchio Nero, simbolo di <persName> Lord Voldemort </persName>. </p>
+                <p> All'inizio del nuovo anno scolastico ad <placeName> Hogwarts </placeName>, <persName> Albus Silente </persName> annuncia che non si terrà l'annuale torneo scolastico di Quidditch, in quanto è stato deciso di effettuare un nuovo tentativo di disputare il Torneo Tremaghi, leggendaria competizione del mondo magico. In questo torneo si affrontano le tre maggiori scuole di magia e stregoneria europee: <placeName> Hogwarts </placeName>, <placeName> Durmstrang </placeName> e <placeName> Beauxbatons </placeName> Tale torneo è composto da tre prove che saranno affrontate da un campione selezionato per ogni scuola.</p>
+                <p> <persName> Silente </persName> presenta anche il nuovo insegnante di difesa contro le Arti Oscure: <persName> Alastor Moody </persName>, detto "Malocchio Moody", un noto ex Auror, ossia un cacciatore di maghi oscuri. Durante la sua prima lezione, il docente mostra agli studenti le tre Maledizioni Senza Perdono: la maledizione Imperius, che consente a chi la utilizza di controllare la mente, la volontà ed i movimenti della vittima; la maledizione Cruciatus, che consente di torturare la vittima con sofferenze atroci; la maledizione Avada Kedavra, l'Anatema che Uccide, che provoca la morte istantanea della vittima.</p>
+                <p> Dopo l'arrivo delle delegazioni delle scuole di <placeName> Durmstrang </placeName> e <placeName> Beauxbatons </placeName> , si tiene una cerimonia di benvenuto, durante la quale <persName> Silente </persName> annuncia che, a causa dell'elevato numero di morti nelle passate edizioni, motivo per cui il Torneo Tremaghi era stato sospeso, è stato deciso che solo gli studenti maggiorenni, cioè con più di diciassette anni, potranno candidarsi per diventare campioni della loro scuola. </p>
+                <p> I 3 campioni verranno scelti da un selezionatore imparziale, il Calice di fuoco, tra tutti gli studenti che avranno messo all'interno del Calice un pezzo di pergamena con sopra scritto il proprio nome e la scuola di appartenenza. </p>
+                <p> I prescelti, alla fine, sono: <persName> Cedric Diggory </persName> , della casa di Tassorosso, per <placeName> Hogwarts </placeName> , <persName> Viktor Krum </persName> , il Cercatore bulgaro, per <placeName> Durmstrang </placeName> e <persName> Fleur Delacour </persName> , una ragazza in parte Veela, per <placeName> Beauxbatons </placeName>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+    
+

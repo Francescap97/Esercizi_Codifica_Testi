@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Definire elementi -->
+<!ELEMENT (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)*>
+
+<!ATTLIST header 
+    type CDDATA #FIXED "intestazione"
+    lang NMTOKEN #IMPLIED
+>
+
+<!ATTLIST facsimile
+    source #REQUIRED
+    red IDREFS #IMPLIED
+>
+
+<!ATTLIST testo 
+    id ID #REQUIRED
+    type CDATA #IMPLIED
+>

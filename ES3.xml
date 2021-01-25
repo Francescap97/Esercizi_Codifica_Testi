@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Apire file XML non ben formato presente su github-->
+<text>
+    <!-- Aggiungo un figlio all'elemento radice -->
+    <p> Il primo xml con validazione </p>
+
+    <!-- Aggiungo un elemento fratello -->
+    <p> Altro paragrafo </p>
+</text>
+
+<!-- Rimuovo l'elemento text vuoto
+<text />
+-->
+
+
+<!-- OUTPUT XMLLINT
+xmlfirst.xml:5: parser error : Extra content at the end of the document
+<text />
+^
+-->

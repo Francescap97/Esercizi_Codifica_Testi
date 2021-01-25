@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<!-- Trascrivere e codificare un frammento di lettera di Bellini -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Ottavio Tasca, in Como, 24 agosto 1830 </title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition>Edizione digitale
+					<date when="2020-10">Ottobre 2020</date>
+				</edition>
+                <respStmt>
+                    <resp>Progetto edizione digitale coordinato da</resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                    <name xml:id="DS">Daria Spampinato</name>
+                </respStmt>
+				<respStmt>
+					<resp>Codifica di</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="EC">Erica Capizzi</name>
+					<name ref="#DS">Daria Spampinato</name>
+                    <name xml:id="FP">Francesca Parra</name>
+                    <name xml:id="GBE">Greta Bernardoni</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+                <date when="2020">2020</date>
+			</publicationStmt>
+
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="136">
+					<citedRange unit="page" from="226" to="226">226</citedRange>
+				</bibl>
+
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<idno type="inventory">LL1.6</idno>					
+						<altIdentifier>
+                            <idno type="collocation">in esposizione Casa Natale, sala B, vetrina 3, ripiano 1, IV</idno>
+						</altIdentifier>						
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#OT">Ottavio Tasca</persName>, in <placeName ref="#CO">Como</placeName>, <date when="1830-08-24" cert="high" resp="#GS">24 agosto 1830</date>    			
+							</title>
+							<textLang mainLang="it" otherLangs="fr">italiano di inizio Ottocento con indirizzo in francese</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<stamp> Sono presenti al centro nel folio fronte-verso un timbro postale di partenza e parte del sigillo di ceralacca rossa.</stamp>
+									<p>Lettera in discrete condizioni fisiche, composta da un solo folio, piegato in più parti e con testo della lettera nel fronte-recto e nel retro-verso e indirizzo nella parte del fronte-verso. Carta sottile senza filigrana, colore beige, inchiostro nero. La lettera sul fronte-verso presenta due strappi: uno in basso e l'altro al centro a sinistra. Anche sul retro-verso sono presenti due strappi: uno piccolo infondo a destra e uno molto lieve al centro a sinistra (probabilmente si è cercato di ricompattarlo). Il margine inferiore del retro-verso è frastagliato. Sul retro-recto sono presenti due macchie provocate dal sigillo in ceralacca (ha causato anche un lieve strappo) e dal timbro postale presenti sul fronte-verso. </p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>
+									<dimensions unit="mm">
+										<height>197</height>
+										<width>135</width>
+									</dimensions>
+								</extent>
+								<foliation>
+											Il fronte è piegato in recto (a dx) e verso (a sx), con l'indirizzo nel verso. Ciascuno presenta due piegature simmetriche sui margini inferiore e superiore e due asimmetriche sui margini destro e sinistro, quest'ultimo piegato più stretto. Quindi il folio è diviso in nove sezioni disomogenee e funge anche da busta.
+								</foliation>
+								<condition>
+									<p>Lettera in discrete condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="4">
+							<handNote>
+								<p>Scrittura di Bellini a mano libera leggibile.</p>
+							</handNote>
+							<handNote xml:id="h1">
+								<p>Fronte-verso: segno simile al numero romano V di significato e origini incerte, ricorrente nell'epistolario di Bellini.</p>
+							</handNote>
+							<handNote xml:id="h2">
+								<p>Fronte-recto, in alto a sinistra: annotazione a matita che rappresenta il numero 38, probabilmente dovuta ad un catalogatore.</p> 
+							</handNote>
+							<handNote xml:id="h3">
+								<p>Fronte-verso, al centro: annotazione a matita che presenta "Bellini", probabilmente dovuta ad un catalogatore</p>
+							</handNote>
+						</handDesc>
+						<sealDesc>							
+							<seal facs="#LL1.6_hotspot_1fv_04" type="wax">
+								<p>Il fronte-verso, nella parte centrale destra, presenta un frammento di sigillo di ceralacca rossa.</p>
+							</seal>
+						</sealDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>		
+									All'interno del carteggio belliniano (LL), la segnatura LL1.6 identifica la sesta missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

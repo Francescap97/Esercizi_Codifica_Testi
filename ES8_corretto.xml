@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    studente: Francesca Parra
+    matricola: 545680
+    corso: Codifica di testi 2019/2020
+-->
+
+<text>
+    <titolo> Harry Potter </titolo>
+    <intestazione> Trama del primo libro </intestazione>
+
+    <pagina n="3"/>
+    <p> Harry Potter e la pietra filosofole è il primo libro della saga che narra la storia del mago Harry alle prese con gli zii babbani e la scuola di magia e stregoneria di Hogwarts. 
+        Questa scuola è stata frequentata anche dai genitori di Harry, ma lui è sempre stato all'oscuro di tutto. 
+    </p>
+   
+    <p> Gli zii  <pagina n="4"/> lo hanno cresciuto nel sottoscala della loro abitazione, facendogli credere che i suoi genitori fossero morti in un incidente stradale. Ma tutto cambiò quando cominciarono ad arrivare delle lettere [...]
+    </p>
+</text>
